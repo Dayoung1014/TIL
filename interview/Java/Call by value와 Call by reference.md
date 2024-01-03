@@ -13,6 +13,8 @@
 - 함수 안에서 인자의 값이 변경되면 레퍼런스가 변수를 가리키고 있기 때문에 인자로 전달된 변수의 값도 함께 변경된다.
 
 ## Java는 항상 Call by Value 
+[Primitive type와 Reference type](https://github.com/Dayoung1014/TIL/blob/main/interview/Java/Primitive%20type%EC%99%80%20Reference%20type.md)
+
 **Primitive Type(기본 자료형)**
 - 변수의 값을 복사해서 전달
 
