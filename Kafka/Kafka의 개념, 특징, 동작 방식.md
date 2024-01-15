@@ -36,3 +36,5 @@ Kafka를 적용한 후 링크드인의 데이터 처리 시스템이다. Kafka�
 
 ## 동작 방식 
 Kafka는 Pub-Sub 모델의 메시지 큐 형태로 동작한다.
+
+[Message Queue & PUB/SUB - Kafka, Redis, RabbitMQ](https://github.com/Dayoung1014/TIL/blob/main/Software%20Engineering/Message%20Queue%20%26%20PUB%2CSUB%20-%20Kafka%2C%20Redis%2C%20RabbitMQ.md)
