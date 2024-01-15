@@ -1,4 +1,4 @@
-# Kafka 개요 및 설명
+# Kafka 개요 및 설명 
 
 ## 개념
 **Kafka**는 빠르고 확장 가능한 작업을 위해 데이터 피드의 분산 스트리밍, 파이프 라이닝 및 재생을 위한 실시간 스트리밍 데이터를 처리할 목적으로 설계된 분산형 게시-구독 메시징 플랫폼이다.
@@ -12,8 +12,8 @@
     - Kafka 토픽에 들어간 데이터는 컨슈머가 가지고 가더라도 데이터가 사라지지 않음
 
 ## Before Kafka
-![Before_Kafka](https://github.com/Dayoung1014/TIL/assets/58163364/fee25e84-b64f-4786-8e07-9cf755ebf54b)
-<sub>출처 https://www.confluent.io/blog/event-streaming-platform-1/</sub>
+![Before_Kafka](https://github.com/Dayoung1014/TIL/assets/58163364/fee25e84-b64f-4786-8e07-9cf755ebf54b) 
+<br><sub>출처 https://www.confluent.io/blog/event-streaming-platform-1/</sub>
 
 
 Kafka가 개발되기 전 링크드인의 데이터 처리 시스템이다. 데이터를 전송하는 Source application, 데이터를 받는 Target application이 많아지며 시스템 복잡도가 높아지게 되었고 아래와 같은 문제점이 발생하게 되었다.
@@ -26,7 +26,7 @@ Kafka가 개발되기 전 링크드인의 데이터 처리 시스템이다. 데�
 
 ## After Kafka
 ![After_Kafka](https://github.com/Dayoung1014/TIL/assets/58163364/9b28f846-998d-441b-9c6e-54d4b7be843d)
-<sub>출처 https://www.confluent.io/blog/event-streaming-platform-1/</sub>
+<br><sub>출처 https://www.confluent.io/blog/event-streaming-platform-1/</sub>
 
 Kafka를 적용한 후 링크드인의 데이터 처리 시스템이다. Kafka를 기반으로 스트림 중심 데이터 아키텍처를 구축하였으며 위의 문제점들을 해결하고 아래와 같은 특징을 갖게 되었다.
 
@@ -40,7 +40,7 @@ Kafka를 적용한 후 링크드인의 데이터 처리 시스템이다. Kafka�
 ### [Message Queue & PUB/SUB - Kafka, Redis, RabbitMQ](https://github.com/Dayoung1014/TIL/blob/main/Software%20Engineering/Message%20Queue%20%26%20PUB%2CSUB%20-%20Kafka%2C%20Redis%2C%20RabbitMQ.md)
 
 ![Kafka](https://github.com/Dayoung1014/TIL/assets/58163364/dba906ea-0d84-4905-ae13-01cc67e80cb9)
-<sub>출처 https://cloud.google.com/pubsub/docs/migrating-from-kafka-to-pubsub?hl=ko</sub>
+<br><sub>출처 https://cloud.google.com/pubsub/docs/migrating-from-kafka-to-pubsub?hl=ko</sub>
 
 
 ## 구성 요소

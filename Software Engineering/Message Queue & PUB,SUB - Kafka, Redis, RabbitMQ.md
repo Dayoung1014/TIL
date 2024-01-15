@@ -2,7 +2,7 @@
 
 ## Message Queue (MQ, 메시지 큐)
 ![Message Queue](https://github.com/Dayoung1014/TIL/assets/58163364/a31dab7f-1a12-4dac-8e18-21d3b541d0e4)
-<sub>출처 https://tecoble.techcourse.co.kr/post/2021-09-19-message-queue/</sub>
+<br><sub>출처 https://tecoble.techcourse.co.kr/post/2021-09-19-message-queue/</sub>
 
 **Message Queue**는 프로세스 또는 프로그램 간에 데이터를 교환할 때 사용하는 통신 방법 중 하나로 메시지 지향 미들웨어(MOM:Message Oriented Middleware)를 구현한 시스템이다. 
 
@@ -25,7 +25,7 @@ Pub/Sub 모델의 구체적인 발행/구독 방식은 각 서비스 마다 다�
 
 ### Kafka
 ![Kafka](https://github.com/Dayoung1014/TIL/assets/58163364/dba906ea-0d84-4905-ae13-01cc67e80cb9)
-<sub>출처 https://cloud.google.com/pubsub/docs/migrating-from-kafka-to-pubsub?hl=ko</sub>
+<br><sub>출처 https://cloud.google.com/pubsub/docs/migrating-from-kafka-to-pubsub?hl=ko</sub>
 
 **Kafka**는 LinkedIn에서 개발된 pub-sub 모델의 메시지큐 방식 기반, 분산 메시징 시스템이다.
 
@@ -57,7 +57,7 @@ Pub/Sub 모델의 구체적인 발행/구독 방식은 각 서비스 마다 다�
 
 ### Redis
 ![Redis](https://github.com/Dayoung1014/TIL/assets/58163364/458a2045-743c-4dbe-993a-98f73c985f21)
-<sub>출처 https://medium.com/@saurabh.singh0829/redis-pub-sub-implementation-f3208e4625c7</sub>
+<br><sub>출처 https://medium.com/@saurabh.singh0829/redis-pub-sub-implementation-f3208e4625c7</sub>
 
 **Redis**는 데이터베이스, 캐시, 메시지 브로커 및 스트리밍 엔진으로 사용되는 인메모리 데이터 구조 저장소이다.
 
@@ -89,7 +89,7 @@ Pub/Sub 모델의 구체적인 발행/구독 방식은 각 서비스 마다 다�
 <img src="https://github.com/Dayoung1014/TIL/assets/58163364/c4e9c1f4-6c49-4e76-a55c-b96b0f547b0a" width="20%">
 <img src="https://github.com/Dayoung1014/TIL/assets/58163364/8c67b299-b8b1-4a1b-acab-f5b95152fdbe" width="30%">
 
-<sub>출처 https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html</sub>
+<br><sub>출처 https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html</sub>
 
 **RabbitMQ**는 AMQP 프로토콜을 구현한 메세지 브로커이다.
 
