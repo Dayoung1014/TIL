@@ -7,10 +7,6 @@ Today I Learned ✍🏻
 - [ORM](https://github.com/Dayoung1014/TIL/blob/main/Database/ORM.md)
   
 ## [Interview](https://github.com/Dayoung1014/TIL/tree/main/Interview)
-### [Java](https://github.com/Dayoung1014/TIL/tree/main/Interview/Java)
-- [Call by value와 Call by reference](https://github.com/Dayoung1014/TIL/blob/main/Interview/Java/Call%20by%20value%EC%99%80%20Call%20by%20reference.md)
-- [Primitive type와 Reference type](https://github.com/Dayoung1014/TIL/blob/main/Interview/Java/Primitive%20type%EC%99%80%20Reference%20type.md)
-- [객체 지향 프로그래밍](https://github.com/Dayoung1014/TIL/blob/main/Interview/Java/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
 
 ## [Kafka](https://github.com/Dayoung1014/TIL/tree/main/Kafka)
 - [Kafka 개요 및 설명](https://github.com/Dayoung1014/TIL/blob/main/Kafka/Kafka%20%EA%B0%9C%EC%9A%94%20%EB%B0%8F%20%EC%84%A4%EB%AA%85.md)
@@ -18,6 +14,11 @@ Today I Learned ✍🏻
 - [실습](https://github.com/Dayoung1014/TIL/tree/main/Kafka/%EC%8B%A4%EC%8A%B5)
 
 ## [Language](https://github.com/Dayoung1014/TIL/tree/main/Language)  
+### [Java](https://github.com/Dayoung1014/TIL/tree/main/Interview/Java)
+- [Call by value와 Call by reference](https://github.com/Dayoung1014/TIL/blob/main/Interview/Java/Call%20by%20value%EC%99%80%20Call%20by%20reference.md)
+- [Primitive type와 Reference type](https://github.com/Dayoung1014/TIL/blob/main/Interview/Java/Primitive%20type%EC%99%80%20Reference%20type.md)
+- [객체 지향 프로그래밍](https://github.com/Dayoung1014/TIL/blob/main/Interview/Java/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
+  
 ### [Python](https://github.com/Dayoung1014/TIL/tree/main/Language/Python)
 - [Iterable과 Iterator](https://github.com/Dayoung1014/TIL/blob/main/Language/Python/Iterable%EA%B3%BC%20Iterator.md)
 
