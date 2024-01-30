@@ -19,3 +19,14 @@ Docker를 사용하면 환경에 구애받지 않고 애플리케이션을 빠�
 **비용 절감**
 
 - 도커 컨테이너 사용 시 각 서버에서 좀 더 쉽게 많은 코드를 실행하여 사용률을 높이고 비용 절감 가능
+
+
+## ❓ Docker는 어떻게 작동되는가? (Docker VS VM)
+
+![Docker_VM](https://github.com/Dayoung1014/TIL/assets/58163364/6a5ed213-0fde-49ad-a415-7fe13f19a84e)
+[ 출처 [Docker is NOT a Hypervisor - by.mikesir87](https://blog.mikesir87.io/2017/05/docker-is-not-a-hypervisor/) ]
+
+Docker와 VM(가상 머신)은 애플리케이션을 격리하여 실행하는 기술이다.
+
+둘 다 애플리케이션을 격리된 환경에서 실행하며, 애플리케이션과 종속성을 함께 패키징하여 배포와 관리를 단순화하고, 다양한 환경에서의 일관된 실행을 보장 한다.
+
