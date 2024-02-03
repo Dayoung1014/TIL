@@ -64,3 +64,6 @@ Container는 생성, 시작, 정지, 이동, 삭제 등을 할 수 있다.
 ![Docker_container](https://github.com/Dayoung1014/TIL/assets/58163364/67b362c4-63a8-4441-a6df-482c27310414)
 [ 출처 [도커와 컨테이너의 이해 (3/3) - by.cloudmt](https://tech.cloudmt.co.kr/2022/06/29/%EB%8F%84%EC%BB%A4%EC%99%80-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4-3-3-docker-image-dockerfile-docker-compose/) ]
 
+**Image (레시피) → Container (음식)**
+- 하나의 Image로 여러 개의 Container를 만들 수 있다.
+- 기존 Image를 수정하여도 이미 실행 중인 Container에 영향을 주지 않는다.
