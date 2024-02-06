@@ -80,3 +80,15 @@ Container는 생성, 시작, 정지, 이동, 삭제 등을 할 수 있다.
 docker -v 
 ```
 
+### Image 관련
+
+```bash
+# Docker Hub에서 이미지를 받아옴
+docker pull <이미지 이름>:<태그 이름>
+
+# Docker 이미지 나열
+docker images
+
+# Docker 이미지 삭제
+docker rmi <이미지 이름>
+```
