@@ -92,3 +92,34 @@ docker images
 # Docker 이미지 삭제
 docker rmi <이미지 이름>
 ```
+
+### Container 관련
+
+```bash
+# 컨테이너 생성 및 실행
+docker run -dit \
+–name <컨테이너 이름> \
+-p <host port>:<container port> \
+-e <env_key=env_value> \
+<이미지 이름> \
+<CMD(optional)>
+
+# 컨테이너 나열 (-a : 정지된 컨테이너 포함) (status : 특정 상태에 있는 컨테이너 필터링)
+docker ps (-a) (status={상태})
+
+# 컨테이너 삭제 (-f : 실행 중인 컨테이너 강제 삭제)
+docker rm (-f) <컨테이너 이름 또는 ID>
+
+# 컨테이너 실행
+docker start <컨테이너 이름 또는 ID>
+
+# 컨테이너 중지
+docker stop <컨테이너 이름 또는 ID>
+
+# 컨테이너 로그 확인 (-f : 계속해서 follow 하여 로그를 실시간 스트리밍)
+docker logs (-f) <컨테이너 이름 또는 ID>
+
+# 실행 중인 컨테이너 내에서 명령어 실행 (-it : 인터렉티브 쉘 접근)
+docker exec -it <컨테이너 이름 또는 ID> <CMD>
+```
+
