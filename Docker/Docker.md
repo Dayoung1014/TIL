@@ -123,3 +123,12 @@ docker logs (-f) <컨테이너 이름 또는 ID>
 docker exec -it <컨테이너 이름 또는 ID> <CMD>
 ```
 
+### Volume 관련
+
+```bash
+# 볼륨 나열
+docker volume ls 
+
+# 볼륨 삭제
+docker volume rm 볼륨명
+```
