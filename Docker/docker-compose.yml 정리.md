@@ -32,4 +32,22 @@ env_file을 통해 환경 변수 파일을 지정 |
 | volumes | 데이터를 저장하기 위한 볼륨 정의 | 볼륨은 컨테이너가 삭제되어도 데이터가 유지됨 |
 | configs | 구성 파일을 서비스와 공유하기 위한 선언 | Docker Swarm 모드에서 사용  |
 | secrets | 민감한 정보를 안전하게 전달하고 저장하기 위한 선언 | Docker Swarm 모드에서 사용  |
- 
+
+### 📝 docker-compose.yml 사용 **명령어**
+
+```bash
+# 해당 경로의 docker-compose를 통해 컨테이너 생성, 시작 (-d : 백그라운드 실행) (--build : 이미지 재빌드)
+docker-compose up (-d) (--build)
+
+# 해당 경로의 docker-compose를 통해 생성, 실행된 컨테이너 종료, 제거
+docker-compose down
+
+# 컨테이너 시작
+docker-compose start
+
+# 컨테이너 정지
+docker-compose stop
+
+# 컨테이너 재시작
+docker-compose restart 
+```
