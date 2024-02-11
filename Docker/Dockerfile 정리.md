@@ -31,3 +31,10 @@ Dockerfile에 기술된 지시사항을 순서대로 실행하여 Docker 이미�
 | ONBUILD | 빌드 완료 후 실행되는 명령 | 해당 이미지를 기반으로 하는 다른 이미지가 빌드될 때 실행할 명령 |
 | STOPSIGNAL | 종료 시그널 설정 | 컨테이너를 종료하기 위해 보내는 시그널 설정  |
 | SHELL | 기본 쉘 설정 | RUN, CMD, ENTRYPOINT 실행 시 사용할 기본 쉘 설정 |
+
+### 📝 Dockerfile 사용 명령어
+
+```bash
+# 경로 디렉토리의 Dockerfile을 사용하여 이미지로 빌드 (-t : 태그명 추가)
+docker build (-t 태그명) {경로}
+```
