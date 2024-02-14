@@ -2,6 +2,7 @@ import os
 
 def generate_markdown_link(path, base_url):
     """Markdown 링크 생성"""
+    encoded_path = path.replace(" ", "%20")
     return f"[{os.path.basename(path)}]({base_url}/{path.replace(os.sep, '/')})"
 
 def list_files(startpath, base_url):
