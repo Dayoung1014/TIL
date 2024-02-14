@@ -24,7 +24,7 @@ if __name__ == "__main__":
     base_url = "https://github.com/Dayoung1014/TIL"  # GitHub 기본 URL
     markdown_content = list_files(startpath, base_url)
     
-    readme_path = os.path.join(startpath, 'readme.md')
+    readme_path = os.path.join(startpath, 'README.md')
     with open(readme_path, 'r+', encoding='utf-8') as f:
         original_content = f.read()
         # `# TIL` 섹션 아래에 새로운 내용 추가
