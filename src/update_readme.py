@@ -1,11 +1,21 @@
 import os
 
-def generate_markdown_link(path, base_url):
-    """Markdown 링크 생성, 파일 확장자 제외"""
+def generate_markdown_link(path, base_url, is_file=True):
+    """Markdown 링크 생성, 파일은 blob과 디렉토리는 tree 경로 사용"""
+    # 파일 이름에서 확장자 제거
+    file_name, file_ext = os.path.splitext(os.path.basename(path))
+    if is_file:
+        link_text = file_name  # 파일의 경우 확장자 제외
+        link_type = "blob"
+    else:
+        link_text = os.path.basename(path)  # 디렉토리의 경우 전체 이름 사용
+        link_type = "tree"
+
     encoded_path = os.path.relpath(path, startpath).replace(" ", "%20").replace(os.sep, '/')
-    full_url = f"{base_url}/{encoded_path}"
-    file_name, _ = os.path.splitext(os.path.basename(path))  # 파일 확장자 제외
-    return f"[{file_name}]({full_url})"
+    # 파일과 디렉토리에 따라 URL 구성 변경
+    full_url = f"{base_url}/{link_type}/main/{encoded_path}"
+
+    return f"[{link_text}]({full_url})"
 
 def list_files(startpath, base_url, exclude_dirs=None):
     """디렉토리와 파일을 순회하며 Markdown 목차 생성, 특정 디렉토리 제외하고 계층 구조 반영"""
@@ -20,8 +30,7 @@ def list_files(startpath, base_url, exclude_dirs=None):
         
         if root != startpath:
             relative_path = os.path.relpath(root, startpath)
-            encoded_path = relative_path.replace(" ", "%20").replace(os.sep, '/')
-            markdown_lines.append(f"{indent}{header_size} [{os.path.basename(root)}]({base_url}/{encoded_path})\n")
+            markdown_lines.append(f"{indent}{header_size} {generate_markdown_link(relative_path, base_url, is_file=False)}\n")
         
         for file in files:
             if file.lower() != 'readme.md':  # README.md 파일은 제외
