@@ -13,7 +13,7 @@ def list_files(startpath, base_url):
         relative_path = os.path.relpath(root, startpath)
         markdown_lines.append(f"## {generate_markdown_link(relative_path, base_url)}\n")
         for file in files:
-            if file.lower() != 'readme.md':  # readme.md 파일은 제외
+            if file.lower() != 'README.md':  # README.md 파일은 제외
                 file_path = os.path.join(relative_path, file)
                 markdown_lines.append(f"- {generate_markdown_link(file_path, base_url)}")
         markdown_lines.append("")  # 섹션 간 빈 줄 추가
