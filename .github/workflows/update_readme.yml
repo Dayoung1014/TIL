@@ -21,7 +21,7 @@ jobs:
 
       - name: Update README.md
         run: |
-          python update_readme.py
+          python src/update_readme.py
 
       - name: Commit and push if changed
         run: |
