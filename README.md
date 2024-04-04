@@ -31,6 +31,7 @@
 
 ## [SQLAlchemy](https://github.com/Dayoung1014/TIL/tree/main/SQLAlchemy)
 
+- [validates](https://github.com/Dayoung1014/TIL/blob/main/SQLAlchemy/validates.md)
 - [relationship](https://github.com/Dayoung1014/TIL/blob/main/SQLAlchemy/relationship.md)
 
 ## [Software Engineering](https://github.com/Dayoung1014/TIL/tree/main/Software%20Engineering)
