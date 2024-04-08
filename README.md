@@ -44,6 +44,7 @@
 ## [Git](https://github.com/Dayoung1014/TIL/tree/main/Git)
 
 - [Actions](https://github.com/Dayoung1014/TIL/blob/main/Git/Actions.md)
+- [GitHub Actions으로 repository readme.md 자동 수정하기](https://github.com/Dayoung1014/TIL/blob/main/Git/GitHub%20Actions으로%20repository%20readme.md%20자동%20수정하기.md)
 
 ## [Language](https://github.com/Dayoung1014/TIL/tree/main/Language)
 
