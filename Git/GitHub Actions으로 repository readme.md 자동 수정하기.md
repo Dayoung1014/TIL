@@ -22,3 +22,47 @@ GitHub에서 제공하는 CI/CD(Continuous Integration/Continuous Deployment) �
 - GitHub Marketplace에는 다양한 액션이 공개되어 있어서 필요에 따라 선택하여 사용할 수 있다.
 - 액션은 컨테이너 또는 JavaScript로 작성할 수 있으며, 입력, 출력, 환경 변수 등을 정의할 수 있다.
 GitHub Actions를 사용하면 개발 워크플로우를 더욱 자동화하고 최적화할 수 있으며, 코드 통합, 테스트, 배포 등이 훨씬 더 효율적이고 간편해진다.
+
+# 실행  
+### 1. action을 위한 Repository secrets를 생성
+- PERSONAL_ACCESS_TOKEN : 깃 토큰
+- USER_EMAIL : 깃 이메일 계정
+- USER_NAME : 깃 유저명
+
+### 2. github/workflows/update_readme.yml 작성 
+```yml
+name: Update README
+
+on:
+  push:
+    branches:
+      - main   
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Update README.md
+        run: |
+          python src/update_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email ${{ secrets.USER_EMAIL }}  
+          git config --global user.name ${{ secrets.USER_NAME }}  
+          git add README.md
+          git commit -m "Automatically update README.md" || exit 0
+          git push
+```
+
+
