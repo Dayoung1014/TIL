@@ -1,6 +1,6 @@
 # Docker Compose로 Elasticsearch, Kibana 환경 구성  
 
-[Docker로 Elasticsearch, Kibana 환경 구성](https://github.com/Dayoung1014/TIL/blob/main/Elastic/Docker%EB%A1%9C%20Elasticsearch,%20Kibana%20%ED%99%98%EA%B2%BD%20%EA%B5%AC%EC%84%B1) 에서는 Docker 명령어를 사용하여 Elasticsearch, Kibana 환경을 구성했습니다.
+[Docker로 Elasticsearch, Kibana 환경 구성](https://github.com/Dayoung1014/TIL/blob/main/Elastic/Docker%EB%A1%9C%20Elasticsearch%2C%20Kibana%20%ED%99%98%EA%B2%BD%20%EA%B5%AC%EC%84%B1.md) 에서는 Docker 명령어를 사용하여 Elasticsearch, Kibana 환경을 구성했습니다.
 
 이를 개발 환경에서 더욱 편리하게 관리하기 위해 아래의 Docker Compose를 작성했습니다.
 
