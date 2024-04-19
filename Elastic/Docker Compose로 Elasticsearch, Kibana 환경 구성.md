@@ -90,3 +90,11 @@ volumes:
   esdata:  # 정의된 볼륨 이름
     driver: local  # 볼륨 드라이버
 ``` 
+
+
+#### 참고
+https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+
+https://esbook.kimjmin.net/
+
+https://www.elastic.co/guide/en/kibana/current/docker.html
