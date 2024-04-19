@@ -66,4 +66,4 @@
 ## [Elastic](https://github.com/Dayoung1014/TIL/tree/main/Elastic)
 
 - [Docker로 Elasticsearch, Kibana 환경 구성](https://github.com/Dayoung1014/TIL/blob/main/Elastic/Docker로%20Elasticsearch,%20Kibana%20환경%20구성.md)
-- [docker-compose.yml로 Elasticsearch, Kibana 환경 구성](https://github.com/Dayoung1014/TIL/blob/main/Elastic/docker-compose.yml로%20Elasticsearch,%20Kibana%20환경%20구성.md)
+- [Docker Compose로 Elasticsearch, Kibana 환경 구성](https://github.com/Dayoung1014/TIL/blob/main/Elastic/Docker%20Compose로%20Elasticsearch,%20Kibana%20환경%20구성.md)
