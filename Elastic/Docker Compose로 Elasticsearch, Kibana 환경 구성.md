@@ -43,7 +43,7 @@ services:
 
 ``` 
 
-주석을 통해 설명을 추가한 docker-compose.yml은 아래와 같습니다.
+## docker-compose.yml 설명
 
 ``` yml
 version: '3.8'
